@@ -1,3 +1,6 @@
+body {
+  background-color: #f2f2f2; }
+
 .clean-padding {
   padding: 0 !important; }
 
@@ -40,5 +43,12 @@
   font-size: 20px; }
   .about-me .about-text .title h2 {
     margin-bottom: 20px; }
+
+.skills .item-skills {
+  padding: 40px; }
+.skills .content-item {
+  height: 170px;
+  margin: 20px;
+  background-color: #5FD6A8; }
 
 /*# sourceMappingURL=style.css.map */
