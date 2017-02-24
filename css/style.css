@@ -51,4 +51,19 @@ body {
   margin: 20px;
   background-color: #5FD6A8; }
 
+.work {
+  /*.galery {
+  	#demo {
+  		position: relative;
+  		.current_item {
+  			width: 25%;
+  			display: inline-block;
+  			img {
+  				width: 100%;
+  				height: auto;
+  			}
+  		}
+  	}
+  }*/ }
+
 /*# sourceMappingURL=style.css.map */
