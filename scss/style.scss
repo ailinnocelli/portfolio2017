@@ -19,6 +19,7 @@ background-color: #f2f2f2;
 	background-color: #d72f7a;
 	width: 100%;
 	padding: 20px 50px;
+	box-shadow: none;
 	.logo {
 		display: inline-block;
 	}
@@ -39,8 +40,9 @@ background-color: #f2f2f2;
 	}
 }
 .title {
-	font-size: 35px;
+	font-size: 3.4rem;
 	font-weight: 700;
+	text-align: center;
 }
 .about-me {
 	.about-img {
@@ -67,7 +69,7 @@ background-color: #f2f2f2;
 }
 .skills {
 	.item-skills {
-		padding: 40px;
+		width: 310px;
 		//border: solid 1px grey; 
 	}
 	.content-item {
@@ -90,4 +92,27 @@ background-color: #f2f2f2;
 			}
 		}
 	}*/
+}
+.contact {
+	margin-bottom: 30px;
+	.contact-item {
+		display: inline-block;
+		width: 30%;
+		text-align: center;
+		span {
+			
+			&::before {
+				font-size: 4rem;
+			}
+		}
+	}
+	.info {
+		text-align: center;
+	    font-size: 17px;
+	    font-weight: 500;
+	    margin-top: 50px;
+	}
+	.contact-information {
+		margin-top: 30px;
+	}
 }
