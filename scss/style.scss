@@ -40,13 +40,15 @@ background-color: #f2f2f2;
 	}
 }
 .title {
+	padding-top: 30px;
 	font-size: 3.4rem;
 	font-weight: 700;
 	text-align: center;
+	color: #04a2d2;
 }
 .about-me {
 	.about-img {
-
+		padding: 50px 30px;
 		img {
 			width: 100%;
 			height: auto;
@@ -56,11 +58,12 @@ background-color: #f2f2f2;
 		color: #04a2d2;
 		font-weight: 600;
 		line-height: 1.2em;
-		padding: 20px 30px;
+		padding: 50px 30px;
 		font-size: 20px;
 		.title {
 			h2 {
 				margin-bottom: 20px;
+				margin-bottom: 50px;
 			}
 			
 		}
@@ -76,9 +79,22 @@ background-color: #f2f2f2;
 		height: 170px;
 		margin: 20px;
 		background-color: #5FD6A8;
+		text-align: center;
+		.item {
+			font-size: 50px;
+    		font-weight: 800;	
+    		width: 240px;
+    		position: relative;
+    		top: 35%;
+    		color: white;
+    		text-shadow: 3px 3px 4px #FF19C9;
+
+		}
 	}
 }
 .work {
+	background-color: #A1DAC4;
+	padding-top: 30px;
 	/*.galery {
 		#demo {
 			position: relative;
@@ -111,8 +127,9 @@ background-color: #f2f2f2;
 	    font-size: 17px;
 	    font-weight: 500;
 	    margin-top: 50px;
+	    color: #04a2d2;
 	}
 	.contact-information {
-		margin-top: 30px;
+		margin-top: 110px;
 	}
 }
