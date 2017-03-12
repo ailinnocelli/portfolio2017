@@ -73,9 +73,61 @@ body {
   .work .galery .item {
     width: 200px;
     height: 200px;
-    background-color: #FFFFFF;
+    background-color: transparent;
     box-shadow: 0px 0px 20px #FF19C9; }
     .work .galery .item.alentando:before {
+      content: "";
+      width: 200px;
+      height: 200px;
+      background-image: url("../img/alentando.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      z-index: 4;
+      display: inline-block; }
+    .work .galery .item.americas:before {
+      content: "";
+      width: 190px;
+      height: 42px;
+      background-image: url("../img/americas.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      z-index: 4;
+      display: inline-block;
+      vertical-align: middle; }
+    .work .galery .item.tribuno:before {
+      content: "";
+      width: 190px;
+      height: 45px;
+      background-image: url("../img/tribuno.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      z-index: 4;
+      display: inline-block;
+      vertical-align: middle; }
+    .work .galery .item.ratingcero:before {
+      content: "";
+      width: 190px;
+      height: 26px;
+      background-image: url("../img/ratingcero.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      z-index: 4;
+      display: inline-block; }
+    .work .galery .item.blablax:before {
+      content: "";
+      width: 190px;
+      height: 70px;
+      background-image: url("../img/blablax.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      z-index: 4;
+      display: inline-block; }
+    .work .galery .item.uno:before {
       content: "";
       width: 200px;
       height: 200px;
