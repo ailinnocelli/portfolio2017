@@ -69,20 +69,22 @@ body {
 
 .work {
   background-color: #A1DAC4;
-  padding-top: 30px;
-  /*.galery {
-  	#demo {
-  		position: relative;
-  		.current_item {
-  			width: 25%;
-  			display: inline-block;
-  			img {
-  				width: 100%;
-  				height: auto;
-  			}
-  		}
-  	}
-  }*/ }
+  padding-top: 30px; }
+  .work .galery .item {
+    width: 200px;
+    height: 200px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px #FF19C9; }
+    .work .galery .item.alentando:before {
+      content: "";
+      width: 200px;
+      height: 200px;
+      background-image: url("../img/uno.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      z-index: 4;
+      display: inline-block; }
 
 .contact {
   margin-bottom: 30px; }
