@@ -104,8 +104,8 @@ background-color: #f2f2f2;
 		.carousel {
 			overflow: visible;
 			height: 600px;
-    		perspective: 100px;
-			-webkit-perspective: 100px;
+    		perspective: 215px;
+			-webkit-perspective: 215px;
 		}
 		.carousel-item {
 			height: auto;
@@ -196,6 +196,15 @@ background-color: #f2f2f2;
 					background-position: center;
 					z-index: 4;
 					display: inline-block;
+				}
+			}
+		}
+	}
+	.webs {
+		.item-web {
+			.portal {
+				img {
+					
 				}
 			}
 		}
